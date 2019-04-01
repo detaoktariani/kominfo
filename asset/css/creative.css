@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body {font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;background: url(../images/bg.png) repeat;}
+a {color: #78d18b;-webkit-transition: all .35s;-moz-transition: all .35s;transition: all .35s;}
+a:hover,a:focus {color: #37A24E;text-decoration: none}
+::-moz-selection {text-shadow: none;color: #fff;background: #78d18b;}
+::selection {text-shadow: none;color: #fff;background: #78d18b;}
+img::selection {color: #fff;background: 0 0;}
+img::-moz-selection {color: #fff;background: 0 0;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;}
+section {padding: 0 0 30px 0;}
+.no-padding {padding: 0;}
+.ico{padding: 30px 0;font-size: 20px;}
+#title{margin-top: 60px}
+.title-section{padding: 20px;border-top: 2px solid #eee;margin: 10px 0;}
+.btn, .form-control{border-radius: 0}
+.modal-content {box-shadow: none;border: none;border-radius: 0;-webkit-border-radius: 0;}
+.modal-header{background: #5bc0de; color: #fff}
+.iconic-input i {color: #CCCCCC;display: block;font-size: 16px;height: 16px;margin: 8px 5px 8px 10px;position: absolute;text-align: center;width: 16px;}
+.iconic-input input {padding-left: 30px !important;}
+.iconic-input.right input {padding-left: 10px !important;padding-right: 30px !important;}
+.iconic-input.right i {float: right;right: 5px;}
+/*--------------------------------Navigasi--------------------------------*/
+.navbar-default {width: 930px;border-color: rgba(34,34,34,.05);font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;background-color: #fff;-webkit-transition: all .35s;-moz-transition: all .35s;transition: all .35s;}
+.navbar-default .navbar-header .navbar-brand {text-transform: uppercase;font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;font-weight: 700;color: #78d18b;padding: 0}
+.navbar-default .navbar-header .navbar-brand:hover,.navbar-default .navbar-header .navbar-brand:focus {color: #78d18b;}
+.navbar-default .nav > li>a,.navbar-default .nav>li>a:focus {text-transform: uppercase;font-size: 13px;font-weight: 700;color: #222;}
+.navbar-default .nav > li>a:hover,.navbar-default .nav>li>a:focus:hover {color: #78d18b;}
+.navbar-default .nav > li.active>a,.navbar-default .nav>li.active>a:focus {color: #78d18b!important;background-color: transparent;}
+.navbar-default .nav > li.active>a:hover,.navbar-default .nav>li.active>a:focus:hover {background-color: transparent;}
+.navbar-header{padding: 20px 0}
+.kanan{padding: 20px 0; margin-right: 0}
+
+/*--------------------------------Login--------------------------------*/
+.login{background: #fff; width: 400px; margin: 5% auto 0; display: block;}
+.login-img{padding: 30px;display: block}
+.login-btn{padding: 30px;display: block}
+.login-title{font-size: 28px;display: inline-block;font-weight: bold;color: #666;}
+/*--------------------------------Wrapper--------------------------------*/
+.wrapper{background: #fff;position: relative;padding: 0 20px 20px;}
+.section-heading {margin-top: 0;}
+.services{padding: 10px}
+.service-box {margin: 50px auto 0;height: 250px}
+.service-box p {margin-bottom: 0;}
+.menu-ico {color: #666}
+.services:hover{background: #78d18b; color: #fff;-webkit-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out;-ms-transition: all .5s ease-in-out;-o-transition: all .5s ease-in-out;transition: all .5s ease-in-out;}
+.border-right{border-right: 1px dashed #ddd;}
+.blog{padding: 10px; border-bottom: 1px solid #eee;color: #666}
+.post h3{margin-top: 0}
+.post a{float: right}
+.post h1 a{float: none;font-size: 20px;}
+.post-title{margin: 0}
+.meta{padding: 8px 0}
+.meta span{padding-right: 10px}
+.blog-text {font-family: sans-serif;color: #666;font-size: 13px;line-height: 24px;margin-top: 25px;text-align: justify;}
+/*--------------------------------Footer--------------------------------*/
+footer{background: #333; color:#fff;float: left;width: 100%;padding: 15px 10px; margin: 40px 0 -20px}
+/*--------------------------------Media Query--------------------------------*/
+@media (min-width: 1200px){
+    .container {width: 1020px;}
+}
+@media(max-width:992px) {
+    .navbar-default {width: 100%}
+}
+@media(min-width:992px) {
+    .service-box {margin: 20px auto 0;}
+}
+@media(min-width:768px) {
+    .navbar-default {border-color: rgba(255,255,255,.3);background-color: rgba(255, 255, 255, 0.5);margin: auto;}
+    .navbar-default .nav > li>a:hover,.navbar-default .nav>li>a:focus:hover {color: #fff;background: #78d18b}
+    .navbar-default.affix {border-color: rgba(34,34,34,.05);background-color: #fff;}
+    .navbar-default.affix .navbar-header .navbar-brand {font-size: 14px;color: #78d18b;}
+    .navbar-default.affix .navbar-header .navbar-brand:hover,.navbar-default.affix .navbar-header .navbar-brand:focus {color: #78d18b;}
+    .navbar-default.affix .nav > li>a,.navbar-default.affix .nav>li>a:focus {color: #222;}
+    .navbar-default.affix .nav > li>a:hover,.navbar-default.affix .nav>li>a:focus:hover {color: #78d18b;}
+}
+@media(max-width: 480px){
+    .login{width: 100%}
+}
+
+
+/* Pulse Shrink */
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.hvr-pulse-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+    opacity: 0.7;
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
